@@ -12,7 +12,7 @@ router.post('/chat', async (req, res) => {
     const userInput = req.body.message;
 
     try {
-        const personalityPrompt = `- Your role: Your Name Is JackGPT. You have a lot of knowledge on IT and can give any answers to any questions. Max Response Limit 500 characters. - User Message: ${userInput}`;
+        const personalityPrompt = `- Your role: Your Name Is EconomeGPT. You have a lot of knowledge on IT and can give any answers to any questions. Max Response Limit 500 characters. - User Message: ${userInput}`;
         
         // API call to your AI service
         const response = await axios.get(`https://api.kastg.xyz/api/ai/chatgptV4?prompt=${encodeURIComponent(personalityPrompt)}&key=Kastg_WFWhKBt93k6sobHi6uTC_free`);
