@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Prism.js for code syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-box" class="chat-box">
+            <!-- Chat messages will be appended here -->
+        </div>
+        <form id="chat-form" class="chat-form">
+            <input type="text" id="user-input" placeholder="Type your message..." autocomplete="on" required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
