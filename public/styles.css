@@ -124,7 +124,8 @@ pre[class*="language-"] {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 20px; /* Increased margin to add space above images */
+    margin-bottom: 10px; /* Added margin at the bottom */
 }
 
 .images-grid img {

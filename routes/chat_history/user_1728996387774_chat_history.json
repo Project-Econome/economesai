@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2024-10-15T12:51:00.086Z",
+    "userInput": "hello",
+    "botResponse": "<p>Sorry, I could not get a response from the AI.</p><br>"
+  },
+  {
+    "timestamp": "2024-10-15T12:55:58.354Z",
+    "userInput": "ee",
+    "botResponse": "<p>Sorry, I could not get a response from the AI.</p><br>"
+  }
+]

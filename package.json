@@ -2,7 +2,7 @@
   "name": "economesai",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "build": "npm run build"
   },
@@ -16,6 +16,7 @@
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.21.0",
+    "marked": "^14.1.2",
     "typescript": "^5.6.2"
   },
   "devDependencies": {

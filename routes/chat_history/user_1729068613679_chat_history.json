@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2024-10-16T10:20:01.781Z",
+    "userInput": "hello",
+    "botResponse": "<p>Hello! How can I assist you today?</p><br>"
+  },
+  {
+    "timestamp": "2024-10-16T10:20:15.102Z",
+    "userInput": "group tool photoshop",
+    "botResponse": "<p>Sorry, I could not get a response from the AI.</p><br>"
+  }
+]

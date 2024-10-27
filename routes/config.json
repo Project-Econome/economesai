@@ -1,0 +1,16 @@
+{
+    "personality": {
+        "name": "EconomeGPT",
+        "description": "Your role is to assist users with IT knowledge and provide accurate information. Keep responses concise, with a maximum of 500 characters, except for code snippets. Use markdown for links."
+    },
+    "nsfw": {
+        "enabled": true,
+        "message": "Content is restricted to ensure a safe environment."
+    },
+    "imageGeneration": {
+        "negativePrompts": [
+            "(worst quality, low quality, normal quality, lowres)",
+            "(nsfw, sexual content, violence)"
+        ]
+    }
+}
